@@ -1,4 +1,4 @@
-# Churros Samosa Classifier
+# Mollusk Classifier
 
 ### Tools used
 
