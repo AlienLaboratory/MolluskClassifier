@@ -22,6 +22,11 @@
     pointer-events: none;
 }
 
+.image {
+    width: 340px;
+    height: 360px;
+    margin-left: 24px;
+}
 
 .result {
     width: 33%px;

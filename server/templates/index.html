@@ -5,26 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,700italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
     <link rel="stylesheet" href="../static/style.css">
 
-    <title>Churros or Samosa?</title>
+    <title>Mollusk Classifier</title>
 </head>
 
 <body>
 
     <div class="container">
         <div class="row">
-            <h1>Churros or Samosa?</h1>
+            <h1>Oysters, mussels or scallops?</h1>
         </div>
         <div class="row">
-            <p>This is a very simple classifer between Churros and Samosas. </p>
+            <p>It is a simple mollusk classifer </p>
         </div>
         <div class="row">
-            <p>Built with PyTorch/FastAI. Just upload an image from your computer and
-                it will be classified.
+            <p>The application is based on PyTorch/FastAI. Upload an image that contains any aforementioned mollusks in order to classify its type.
             </p>
 
         </div>
@@ -39,7 +38,7 @@
             <form enctype="multipart/form-data" method="POST" name="fileinfo">
                 <label>Upload your image:</label>
                 <input type="file" name="file" required />
-                <input type="submit" value="Classify!" />
+                <input type="submit" value="Launch Classifier" />
             </form>
     
         </div>
@@ -50,20 +49,21 @@
         </div>
         <div id="results" class="grid-container">
         </div>
+        <div class="row">
+            <img class="image"src="../static/mussels.jpg">
+            <img class="image"  src="../static/oysters.jpg">
+            <img class="image"  src="../static/scallops.jpg">
+        </div>
     </div>
 
 
 
-<img id="churros" src="../static/churros.png">
+
 
     <footer>
         <p>
-            <a class="github-button" href="https://github.com/sebastian-schuchmann" data-show-count="true"
-                aria-label="Follow @sebastian-schuchmann on GitHub">Follow @sebastian-schuchmann</a>
-
-            <a class="github-button" href="https://github.com/Sebastian-Schuchmann/ChurrosSamosaClassifier"
-                data-show-count="true" data-icon="octicon-star"
-                aria-label="Star Sebastian-Schuchmann/ChurrosSamosaClassifier on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/AlienLaboratory">
+                Check my github account</a>
         </p>
 
     </footer>
